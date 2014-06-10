@@ -78,7 +78,7 @@ module.exports = function (root, globs, opts) {
     }
     
     function keyOf (file) {
-        var parts = path.relative(root, file).split('/');
+        var parts = path.relative(root, file).split(/\/|\\/);
         var len = parts.length;
         if (len) parts[len-1] = parts[len-1].replace(/\.[^.]*$/, '');
         return parts;

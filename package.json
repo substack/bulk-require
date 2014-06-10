@@ -7,7 +7,7 @@
     "glob": "~3.2.7"
   },
   "devDependencies": {
-    "tape": "~2.3.2"
+    "tape": "~2.13.2"
   },
   "scripts": {
     "test": "tape test/*.js"
