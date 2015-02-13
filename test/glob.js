@@ -41,7 +41,6 @@ test('brace expansion', function (t) {
     t.plan(1);
     var res = bulk(__dirname + '/brace', [ '**/{beep,boop}.js' ]);
     t.deepEqual(res, {
-        beep: 'beep!',
         xyz: { boop: 'boop!' }
     });
 });
