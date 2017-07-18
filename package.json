@@ -4,10 +4,10 @@
   "description": "require a whole directory of trees in bulk",
   "main": "index.js",
   "dependencies": {
-    "glob": "~3.2.7"
+    "glob": "~7.1.1"
   },
   "devDependencies": {
-    "tape": "^2.13.2"
+    "tape": "^4.6.2"
   },
   "scripts": {
     "test": "tape test/*.js"
